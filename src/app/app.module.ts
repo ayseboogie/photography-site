@@ -21,8 +21,6 @@ import { AppRoutingModule} from './app.routing';
 import {Routes, RouterModule} from '@angular/router';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 
-import { 'hammerjs'};
-import { 'mousetrap'};
 
 const appRoutes: Routes = [
   { path: 'dashboard',      component: HomeComponent },
