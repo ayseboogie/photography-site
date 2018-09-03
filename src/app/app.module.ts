@@ -23,7 +23,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 
 
 const appRoutes: Routes = [
-  { path: 'dashboard',      component: HomeComponent },
+  { path: 'home',      component: HomeComponent },
   { path: 'aboutme',      component: AboutmeComponent },
   { path: 'families',      component: FamiliesComponent },
   { path: 'musicians',      component: MusiciansComponent },
