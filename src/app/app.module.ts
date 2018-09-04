@@ -20,7 +20,8 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { AppRoutingModule} from './app.routing';
 import {Routes, RouterModule} from '@angular/router';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
-
+import { AngularFireModule} from 'angularfire2';
+import { environment} from '../environments/environment';
 
 const appRoutes: Routes = [
   { path: 'home',      component: HomeComponent },
@@ -28,12 +29,12 @@ const appRoutes: Routes = [
   { path: 'families',      component: FamiliesComponent },
   { path: 'musicians',      component: MusiciansComponent },
   { path: 'outdoors',      component: OutdoorsComponent },
-  { path: 'portrait',      component: PortraitsComponent },
+  { path: 'portraits',      component: PortraitsComponent },
   { path: 'realestate',      component: RealestateComponent },
   { path: 'travels',      component: TravelsComponent },
   { path: 'weddings',      component: WeddingsComponent },
   { path: 'contact',      component: ContactComponent },
-  { path: '',          redirectTo: 'dashboard', pathMatch: 'full' }
+  { path: '',          redirectTo: 'home', pathMatch: 'full' }
 
 ];
 
@@ -59,6 +60,7 @@ const appRoutes: Routes = [
     MDBBootstrapModulesPro.forRoot(),
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
+    AngularFireModule.initializeApp(environment.firebase)
 
 
   ],

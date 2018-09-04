@@ -21,12 +21,12 @@ const routes: Routes = [
   { path: 'families',      component: FamiliesComponent },
   { path: 'musicians',      component: MusiciansComponent },
   { path: 'outdoors',      component: OutdoorsComponent },
-  { path: 'portrait',      component: PortraitsComponent },
+  { path: 'portraits',      component: PortraitsComponent },
   { path: 'realestate',      component: RealestateComponent },
   { path: 'travels',      component: TravelsComponent },
   { path: 'weddings',      component: WeddingsComponent },
   { path: 'contact',      component: ContactComponent },
-  { path: '',          redirectTo: 'dashboard', pathMatch: 'full' }
+  { path: '',          redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
