@@ -1,3 +1,9 @@
+![homepage](https://user-images.githubusercontent.com/29460915/45057692-4c697d00-b064-11e8-90b0-8cdf86bc8cc8.png)
+
+![sidebar](https://user-images.githubusercontent.com/29460915/45057744-7327b380-b064-11e8-8d09-39427fcebb3d.png)
+
+![gallery](https://user-images.githubusercontent.com/29460915/45057776-85095680-b064-11e8-8953-d9f239b0c946.png)
+
 # JubilantOctoDisco
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
