@@ -16,12 +16,12 @@ import { TravelsComponent } from './travels/travels.component';
 import { WeddingsComponent } from './weddings/weddings.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import {Routes, RouterModule} from '@angular/router';
 
 import { AppRoutingModule} from './app.routing';
-import {Routes, RouterModule} from '@angular/router';
-import { SidebarComponent } from './shared/sidebar/sidebar.component';
-import { AngularFireModule} from 'angularfire2';
-import { environment} from '../environments/environment';
+import { LightboxModule} from 'ngx-lightbox';
+import { TestyComponent } from './testy/testy.component';
 
 const appRoutes: Routes = [
   { path: 'home',      component: HomeComponent },
@@ -34,6 +34,9 @@ const appRoutes: Routes = [
   { path: 'travels',      component: TravelsComponent },
   { path: 'weddings',      component: WeddingsComponent },
   { path: 'contact',      component: ContactComponent },
+
+
+  { path: 'testy',      component: TestyComponent },
   { path: '',          redirectTo: 'home', pathMatch: 'full' }
 
 ];
@@ -54,16 +57,16 @@ const appRoutes: Routes = [
     NavbarComponent,
     FooterComponent,
     SidebarComponent,
+    TestyComponent,
   ],
   imports: [
     BrowserModule,
     MDBBootstrapModulesPro.forRoot(),
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
-    AngularFireModule.initializeApp(environment.firebase)
-
-
+    LightboxModule
   ],
+
   providers: [MDBSpinningPreloader],
   bootstrap: [AppComponent],
   schemas: [NO_ERRORS_SCHEMA]

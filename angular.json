@@ -26,7 +26,8 @@
               "node_modules/font-awesome/scss/font-awesome.scss",
               "node_modules/ng-uikit-pro-standard/assets/scss/bootstrap/bootstrap.scss",
               "node_modules/ng-uikit-pro-standard/assets/scss/mdb.scss",
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/ngx-lightbox/lightbox.css"
             ],
             "scripts": [
               "node_modules/chart.js/dist/Chart.js",

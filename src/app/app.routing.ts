@@ -14,6 +14,7 @@ import {TravelsComponent} from './travels/travels.component';
 import {WeddingsComponent} from './weddings/weddings.component';
 import {ContactComponent} from './contact/contact.component';
 
+import { TestyComponent} from './testy/testy.component';
 
 const routes: Routes = [
   { path: 'home',      component: HomeComponent },
@@ -26,6 +27,9 @@ const routes: Routes = [
   { path: 'travels',      component: TravelsComponent },
   { path: 'weddings',      component: WeddingsComponent },
   { path: 'contact',      component: ContactComponent },
+
+
+  { path: 'testy',      component: TestyComponent },
   { path: '',          redirectTo: 'home', pathMatch: 'full' }
 ];
 

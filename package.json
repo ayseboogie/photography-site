@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "dev": "webpack --mode development",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "webpack --mode production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -24,16 +25,20 @@
     "@types/chart.js": "^2.7.31",
     "angular5-csv": "^0.2.10",
     "angularfire2": "^5.0.0-rc.12",
-    "chart.js": "^2.5.0",
+    "bootstrap": "^4.1.3",
+    "chart.js": "^2.7.2",
     "core-js": "^2.5.4",
     "easy-pie-chart": "^2.1.7",
+    "ekko-lightbox": "^5.3.0",
     "firebase": "^5.4.2",
     "firebase-admin": "^6.0.0",
     "firebase-functions": "^2.0.5",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
+    "javascript-to-typescript": "^1.0.2",
     "mousetrap": "^1.6.2",
     "ng-uikit-pro-standard": "git+https://oauth2:VgcKKWWugnGth8zHGz-o@git.mdbootstrap.com/mdb/angular/ng-uikit-pro-standard.git",
+    "ngx-lightbox": "^1.1.0",
     "nodemailer": "^4.6.8",
     "rxjs": "^6.0.0",
     "screenfull": "^3.3.0",
@@ -47,6 +52,9 @@
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
     "codelyzer": "~4.2.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
@@ -58,6 +66,8 @@
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~2.7.2"
+    "typescript": "~2.7.2",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
   }
 }
