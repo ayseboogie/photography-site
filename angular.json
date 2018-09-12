@@ -33,7 +33,10 @@
               "node_modules/chart.js/dist/Chart.js",
               "node_modules/easy-pie-chart/dist/easypiechart.js",
               "node_modules/screenfull/dist/screenfull.js",
-              "node_modules/hammerjs/hammer.min.js"
+              "node_modules/hammerjs/hammer.min.js",
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/baguettebox.js/dist/baguetteBox.js"
+
             ]
           },
           "configurations": {
@@ -84,13 +87,16 @@
               "node_modules/font-awesome/scss/font-awesome.scss",
               "node_modules/ng-uikit-pro-standard/assets/scss/bootstrap/bootstrap.scss",
               "node_modules/ng-uikit-pro-standard/assets/scss/mdb.scss",
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/ngx-lightbox/lightbox.css"
             ],
             "scripts": [
               "node_modules/chart.js/dist/Chart.js",
               "node_modules/easy-pie-chart/dist/easypiechart.js",
               "node_modules/screenfull/dist/screenfull.js",
-              "node_modules/hammerjs/hammer.min.js"
+              "node_modules/hammerjs/hammer.min.js",
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/baguettebox.js/dist/baguetteBox.js"
             ],
             "assets": [
               "src/favicon.ico",

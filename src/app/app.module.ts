@@ -20,8 +20,16 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import {Routes, RouterModule} from '@angular/router';
 
 import { AppRoutingModule} from './app.routing';
-import { LightboxModule} from 'ngx-lightbox';
 import { TestyComponent } from './testy/testy.component';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { GalleryModule } from '@ngx-gallery/core';
+import { LightboxModule } from '@ngx-gallery/lightbox';
+
+import 'hammerjs';
+import 'mousetrap';
+import { ModalGalleryModule } from '@ks89/angular-modal-gallery';
+import {Angular2ImageGalleryModule} from 'angular2-image-gallery';
 
 const appRoutes: Routes = [
   { path: 'home',      component: HomeComponent },
@@ -64,7 +72,11 @@ const appRoutes: Routes = [
     MDBBootstrapModulesPro.forRoot(),
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
-    LightboxModule
+    ModalGalleryModule.forRoot(),
+    BrowserAnimationsModule,
+    LightboxModule.forRoot(),
+    GalleryModule.forRoot(),
+    Angular2ImageGalleryModule
   ],
 
   providers: [MDBSpinningPreloader],
