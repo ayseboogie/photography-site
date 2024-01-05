@@ -7,6 +7,7 @@
 # JubilantOctoDisco
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+A website that my client ripped off and made on wix. Was my first project out of college and I worked hard on it, so here it lives
 
 ## Development server
 
