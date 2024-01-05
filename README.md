@@ -1,3 +1,5 @@
+A website that my client ripped off and made on wix. Was my first project out of college and I worked hard on it, so here it lives
+
 ![homepage](https://user-images.githubusercontent.com/29460915/45057692-4c697d00-b064-11e8-90b0-8cdf86bc8cc8.png)
 
 ![sidebar](https://user-images.githubusercontent.com/29460915/45057744-7327b380-b064-11e8-8d09-39427fcebb3d.png)
@@ -7,7 +9,6 @@
 # JubilantOctoDisco
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
-A website that my client ripped off and made on wix. Was my first project out of college and I worked hard on it, so here it lives
 
 ## Development server
 
